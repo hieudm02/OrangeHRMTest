@@ -23,7 +23,7 @@
         TestNG
         Java
         Intellij Idea
-        Allure
+        Allure Report
 
 
 ## Demo
