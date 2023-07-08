@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Study/AUTOTEST/OrangeHRMProject/src/test"><classes/>
+    </test>
+    <parameter name="appUrl" value="https://opensource-demo.orangehrmlive.com/"></parameter>
+    <parameter name="driverPath" value="D:\\Study\\AUTOTEST\\chromedriver.exe"></parameter>
+    <test name="All test">
+        <classes>
+            <class name="orangehrm.testcase.LoginTest"></class>
+            <class name="orangehrm.testcase.CreateEmployeeTest"></class>
+            <class name="orangehrm.testcase.EmployeeDetailTest"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
